@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leo Zodiac Cruise 2025 - ValTravelBiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        main {
+            padding: 2rem;
+        }
+        .cruise-detail {
+            background-color: #fff;
+            padding: 2rem;
+            margin: 1rem 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .cruise-detail h1 {
+            color: #333;
+        }
+        .booking-link {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            background-color: #007BFF;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        .booking-link:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        footer .social-media a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">ValTravelBiz</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="group-trips.html">Group Trips</a></li>
+                <li><a href="cruises.html">Cruises</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="cruise-detail">
+            <h1>Leo Zodiac Cruise 2025</h1>
+            <p>Celebrate your Leo spirit on an unforgettable 5-day cruise from August 15-20, 2025.</p>
+            <ul>
+                <li><strong>Dates:</strong> August 15-20, 2025</li>
+                <li><strong>Ship:</strong> Enchanted Leo</li>
+                <li><strong>Departure Port:</strong> Miami, FL</li>
+                <li><strong>Destinations:</strong> Nassau, Bahamas; Cozumel, Mexico; Key West, FL</li>
+            </ul>
+            <p>This cruise is designed for Leos to enjoy exclusive events, themed parties, and luxurious amenities. Join fellow Leos for a vibrant and dynamic celebration on the high seas.</p>
+            <a href="https://bit.ly/VVbookit" class="booking-link">Book Now</a>
+        </section>
+    </main>
+    <footer>
+        <div class="contact-info">
+            <p>Contact Us: <a href="tel:+17024018835" style="color: #007BFF;">(702) 401-8835</a> | <a href="mailto:info@workwithtravelbuddy.com" style="color: #007BFF;">info@workwithtravelbuddy.com</a></p>
+        </div>
+        <div class="social-media">
+            <a href="https://www.facebook.com">Facebook</a>
+            <a href="https://www.instagram.com">Instagram</a>
+            <a href="https://www.pinterest.com">Pinterest</a>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            console.log('The page has fully loaded');
+            const bookingLink = document.querySelector('.booking-link');
+            bookingLink.addEventListener('click', (e) => {
+                alert('Booking link clicked!');
+            });
+        });
+    </script>
+</body>
+</html>
